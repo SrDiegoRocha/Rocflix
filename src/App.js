@@ -2,7 +2,7 @@ import React from 'react';
 
 import dadosIniciais from './data/dados_iniciais.json';
 
-import Menu from './components/Menu'
+import Menu from './components/Menu';
 import BannerMain from './components/BannerMain';
 import Carousel from './components/Carousel';
 import Footer from './components/Footer';

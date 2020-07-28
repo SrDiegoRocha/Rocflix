@@ -1,17 +1,19 @@
 import React from 'react';
 import './styles.css';
 
+import { Link } from 'react-router-dom';
+
 import Logo from '../../assets/logo.png';
 import Button from '../Button';
 
 const Menu = () => {
   return (
     <header className="menu">
-        <a href="/">
+        <Link to="/">
             <img src={Logo} alt="Rocflix" className="logo"/>
-        </a>
+        </Link>
 
-        <Button as="a" href="/">
+        <Button as={Link} to="/cadastro/video">
             New Video
         </Button>
     </header>
